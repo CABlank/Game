@@ -1,0 +1,149 @@
+
+body{
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.bodydiv{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFF0;
+}
+
+.cuadro{
+ border-radius: 100%;
+  margin: 0;
+  padding: 0;
+  background: red;
+  display: flex;
+  display: inline-block;
+
+  height: 60vh;
+  width: 60vh;
+  overflow: hidden;
+}
+
+.cuarto_circulo { 
+width: 50%;
+height: 50%;
+float: left;
+display: inline-block;
+position:relative;
+}
+
+.verde{ background: #29A62B; }
+
+.verde.light{ background:#1FFF04  }
+
+
+.cuarto_circulo {
+width: 50%;
+height: 50%;
+float: left;
+display: inline-block;
+position:relative;
+}
+
+.azul {background: #00ACEE;}
+
+.azul.light{ background:#04E4FF }
+
+
+.cuarto_circulo {
+width: 50%;
+height: 50%;
+float: left;
+display: inline-block;
+position:relative;
+}
+
+.amarillo{ background: #E7D40A; }
+
+.amarillo.light{ background: #F0FF04 }
+
+
+.cuarto_circulo {
+  width: 50%;
+height: 50%
+float: left;
+display: inline-block;
+position:relative;
+}
+
+.violeta { background: #EE82EE; }
+
+.violeta.light { background: #F4C9F7 }
+
+.btn-start {
+ width: 30%;
+ height: 15%;
+ background: #ecf0f1;
+ color: #2c3e50;
+ font-size: 4.5vh;
+ position: absolute;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.hide {
+ display: none;
+}
+
+*{
+  font-family: 'Arial'
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 102vh;
+  background: linear-gradient(322deg, #ffffff, #43c6ac, #191654);
+  background-size: 600% 600%;
+  animation: AnimationName 59s ease infinite;
+  margin-top: -10px;
+}
+
+.posicion_imagen_3dmensional {
+  position: absolute;
+  display: block;
+  margin-left: 33%;
+  margin-top: 4%;
+  width: 35%;
+  overflow: hidden;
+}
+.posicion_logo {
+  position: absolute;
+  display: block;
+  margin-left: 6%;
+  margin-top: 10%;
+  width: 27%;
+  overflow: hidden;
+}
+
+@media (max-width: 766px) {
+  .btn-start {
+  width: 80%;
+  /*height: 60%;*/
+  background: #ecf0f1;
+  color: #2c3e50;
+  font-size: 4.5vh;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+  .posicion_imagen_3dmensional {
+  position: absolute;
+  display: block;
+  margin-left: 22%;
+  margin-top: 17%;
+  width: 60%;
+  overflow: hidden;
+}
+}
