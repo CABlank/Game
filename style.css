@@ -125,10 +125,9 @@ position:relative;
   overflow: hidden;
 }
 
-@media (max-width: 766px) {
+/*@media (max-width: 766px) {
   .btn-start {
   width: 80%;
-  /*height: 60%;*/
   background: #ecf0f1;
   color: #2c3e50;
   font-size: 4.5vh;
@@ -146,4 +145,4 @@ position:relative;
   width: 60%;
   overflow: hidden;
 }
-}
+}*/
